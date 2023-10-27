@@ -1,8 +1,7 @@
 body {
-    height: 100vh;
+
 }
 header, footer, section {
-    outline: 1px solid black;
 
 }
 
@@ -16,16 +15,19 @@ header{
 
 section{
     flex-grow: 10;
+    border-bottom: 1px solid lightgrey;
 }
 
 footer{
-    flex-grow: 1;
+    flex-grow: .2;
+    text-align: right;
 }
 
 .flex-container {
     display:flex;
     flex-direction: column;
-    height: 100vh;
+    height: 98vh;
+    background-color: #0088cc;
     }
 
 header img{
