@@ -7,7 +7,11 @@ header, footer, section {
 }
 
 header{
-    flex-grow: 1;
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
 }
 
 section{
@@ -23,3 +27,13 @@ footer{
     flex-direction: column;
     height: 100vh;
     }
+
+header img{
+    height: 80%;
+}
+
+header h1{
+    font-family: "Microsoft JhengHei";
+    font-size: 2em;
+    margin-left: 2em;
+}
