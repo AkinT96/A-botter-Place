@@ -93,7 +93,7 @@ header h1{
 .imagebox1:hover .text-hidden {
      display: block;
      position: absolute;
-     bottom: 5%;
+     bottom: 20%;
      right: 50%;
      background-color: red;
  }
@@ -101,7 +101,7 @@ header h1{
 .imagebox2:hover .text-hidden {
     display: block;
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     right: 50%;
     background-color: red;
 }
