@@ -46,6 +46,8 @@ header h1{
     margin-left: 2em;
 }
 
-.imagebox{
-    width: 33%;
+.imagebox img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
 }
