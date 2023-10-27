@@ -18,7 +18,7 @@ section{
     flex-wrap: wrap;
     flex-grow: 20;
     border-bottom: 1px solid lightgrey;
-    border-top: 1px solid lightgrey;
+    /*border-top: 1px solid lightgrey;*/
     justify-content: space-around;
 }
 
@@ -26,6 +26,30 @@ footer{
     flex-grow: .2;
     text-align: right;
 }
+
+nav{
+    display: flex;
+    flex-grow: 0.5;
+    /*border-top: 1px solid lightgrey;*/
+}
+
+nav a{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav button {
+    flex-grow: 0.8;
+    background-image: linear-gradient(100deg, lightblue, #0088cc);
+    border: 0px;
+    border-radius: 50px;
+}
+nav button:hover {
+    background-image: linear-gradient(200deg, lightblue, #0088cc);
+    outline: 1px solid lightgray;
+}
+
 
  footer p{
     margin-right: 10px;
