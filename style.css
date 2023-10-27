@@ -39,3 +39,7 @@ header h1{
     font-size: 2em;
     margin-left: 2em;
 }
+
+.imagebox{
+    width: 33%;
+}
