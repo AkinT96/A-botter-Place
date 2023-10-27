@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+}
+header, footer, section {
+    outline: 1px solid black;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+    justify-items: stretch;
+    height: 800px;
+    }
