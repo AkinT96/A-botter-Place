@@ -63,8 +63,21 @@ header h1{
 
  .imagebox img:hover {
     outline: 1px solid red;
+
+}
+
+.imagebox:hover .text-hidden {
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    background-color: red;
 }
 
 .intro-text {
     flex-basis: 100%;
+}
+
+.text-hidden {
+    display: none;
 }
