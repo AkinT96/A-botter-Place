@@ -3,12 +3,23 @@ body {
 }
 header, footer, section {
     outline: 1px solid black;
+
+}
+
+header{
+    flex-grow: 1;
+}
+
+section{
+    flex-grow: 10;
+}
+
+footer{
+    flex-grow: 1;
 }
 
 .flex-container {
     display:flex;
     flex-direction: column;
-    justify-content: stretch;
-    justify-items: stretch;
-    height: 800px;
+    height: 100vh;
     }
