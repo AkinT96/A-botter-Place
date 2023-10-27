@@ -85,7 +85,7 @@ header h1{
 .imagebox3:hover .text-hidden {
     display: block;
     position: absolute;
-    bottom: 5%;
+    bottom: 20%;
     right: 50%;
     background-color: red;
 }
