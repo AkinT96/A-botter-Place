@@ -67,12 +67,12 @@ header h1{
 }
 
 .imagebox1:hover .text-hidden {
-    display: block;
-    position: absolute;
-    bottom: 5%;
-    right: 50%;
-    background-color: red;
-}
+     display: block;
+     position: absolute;
+     bottom: 5%;
+     right: 50%;
+     background-color: red;
+ }
 
 .imagebox2:hover .text-hidden {
     display: block;
