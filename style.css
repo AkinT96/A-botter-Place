@@ -14,9 +14,12 @@ header{
 }
 
 section{
+    display: flex;
+    flex-wrap: wrap;
     flex-grow: 20;
     border-bottom: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
+    justify-content: space-around;
 }
 
 footer{
@@ -50,4 +53,14 @@ header h1{
     height: 100px;
     width: 100px;
     border-radius: 20%;
+    box-shadow:2px 2px 5px #000000;
+}
+
+.imagebox {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.intro-text {
+    flex-basis: 100%;
 }
