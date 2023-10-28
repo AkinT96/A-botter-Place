@@ -1,9 +1,3 @@
-body {
-
-}
-header, footer, section {
-
-}
 
 header{
     flex-grow: 1;
@@ -18,8 +12,9 @@ section{
     flex-wrap: wrap;
     flex-grow: 20;
     border-bottom: 1px solid lightgrey;
-    /*border-top: 1px solid lightgrey;*/
+    border-top: 1px solid lightgrey;
     justify-content: space-around;
+    align-content: flex-start;
 }
 
 footer{
@@ -30,7 +25,7 @@ footer{
 nav{
     display: flex;
     flex-grow: 0.5;
-    /*border-top: 1px solid lightgrey;*/
+    border-top: 1px solid lightgrey;
 }
 
 nav a{
@@ -58,8 +53,6 @@ nav button:hover {
 .flex-container {
     display:flex;
     flex-direction: column;
-    height: 98vh;
-    /*background-color: #0088cc;*/
     background-image: linear-gradient(300deg, lightblue, #0088cc);
     }
 
@@ -74,48 +67,42 @@ header h1{
 }
 
 .kleinesbild{
-    margin-bottom: 300px;
     height: 100px;
     width: 100px;
     border-radius: 20%;
     box-shadow:2px 2px 5px #000000;
 }
 
-.vorschaubild {
-    height: 299px;
-    width: 768px;
+.vorschaubild1{
+    height: 150px;
+    width: auto;
+    border-radius: 2%;
+    box-shadow:2px 2px 5px #000000;
+}
 
+.vorschaubild2{
+    height: 250px;
+    width: auto;
+    border-radius: 2%;
+    box-shadow:2px 2px 5px #000000;
+}
+
+.vorschaubild3{
+    height: 220px;
+    width: auto;
+    border-radius: 2%;
+    box-shadow:2px 2px 5px #000000;
 }
 
 .imagebox {
-    flex-basis: 33%;
+    flex-basis: 100%;
     text-align: center;
+    box-sizing: border-box;
 }
 
  .imagebox img:hover {
-    outline: 1px solid red;
+    outline: 1px solid lightgray;
 
-}
-
-.imagebox1:hover .text-hidden {
-     display: block;
-     position: absolute;
-     bottom: 15%;
-     right: 30%;
- }
-
-.imagebox2:hover .text-hidden {
-    display: block;
-    position: absolute;
-    bottom: 15%;
-    right: 30%;
-}
-
-.imagebox3:hover .text-hidden {
-    display: block;
-    position: absolute;
-    bottom: 15%;
-    right: 30%;
 }
 
 .intro-text {
@@ -128,4 +115,52 @@ header h1{
 
 .text-hidden {
     display: none;
+}
+
+@media (min-width: 500px){
+
+    .imagebox1 a:hover .text-hidden {
+        display: block;
+        position: absolute;
+        bottom: 15%;
+        left: 33%;
+    }
+
+    .imagebox2 a:hover .text-hidden {
+        display: block;
+        position: absolute;
+        bottom: 1%;
+        left: 41%;
+    }
+
+    .imagebox3 a:hover .text-hidden {
+        display: block;
+        position: absolute;
+        bottom: 5%;
+        left: 29%;
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 20;
+        border-bottom: 1px solid lightgrey;
+        border-top: 1px solid lightgrey;
+        justify-content: space-around;
+    }
+
+    .imagebox {
+        margin-top: 50px;
+        flex-basis: 33%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .kleinesbild{
+        margin-bottom: 300px;
+        height: 100px;
+        width: 100px;
+        border-radius: 20%;
+        box-shadow:2px 2px 5px #000000;
+    }
 }
