@@ -32,6 +32,7 @@ nav a{
     flex-grow: 1;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 nav button {
@@ -39,6 +40,7 @@ nav button {
     background-image: linear-gradient(100deg, lightblue, #0088cc);
     border: 0px;
     border-radius: 50px;
+
 }
 nav button:hover {
     background-image: linear-gradient(200deg, lightblue, #0088cc);
@@ -157,7 +159,7 @@ header h1{
     }
 
     .kleinesbild{
-        margin-bottom: 300px;
+        margin-bottom: 260px;
         height: 100px;
         width: 100px;
         border-radius: 20%;
