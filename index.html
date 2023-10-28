@@ -4,7 +4,196 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        header{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 10px;
+        }
+
+        section, .Content-Box{
+            flex-grow: 20;
+            border-bottom: 1px solid lightgrey;
+            border-top: 1px solid lightgrey;
+        }
+
+        .Content-Box{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: flex-start;
+        }
+
+        section {
+            font-family: "Microsoft JhengHei";
+            text-align: center;
+        }
+
+        footer{
+            flex-grow: .2;
+            text-align: right;
+        }
+
+        nav{
+            display: flex;
+            flex-direction: column;
+            border-top: 1px solid lightgrey;
+        }
+
+        nav a{
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+        nav button {
+            flex-grow: 1;
+            background-image: linear-gradient(100deg, lightblue, #0088cc);
+            border: 0px;
+            outline: 1px solid lightgray;
+            height: 2em;
+            font-size: x-large;
+        }
+
+        nav button:hover {
+            background-image: linear-gradient(200deg, lightblue, #0088cc);
+            outline: 1px solid lightgray;
+        }
+
+        footer p{
+            margin-right: 10px;
+            text-align: right;
+        }
+
+        .flex-container {
+            display:flex;
+            flex-direction: column;
+            background-image: linear-gradient(300deg, lightblue, #0088cc);
+            min-height: 99vh;
+        }
+
+        header img{
+            height: 80%;
+        }
+
+        h1, h2, h3, h4, p{
+            font-family: "Microsoft JhengHei";
+        }
+
+        h1{
+            font-size: 2em;
+            margin-left: 2em;
+        }
+
+        section p, section h2, section h3, section h4{
+            display: block;
+        }
+
+        .intro-text {
+            display: flex;
+            flex-basis: 100%;
+            justify-content: center;
+            font-size: xx-large;
+            margin-top: 20px;
+            font-family: "Microsoft JhengHei";
+        }
+
+        .kleinesbild{
+            height: 10em;
+            width: 10em;
+            border-radius: 20%;
+            box-shadow:2px 2px 5px #000000;
+        }
+
+        .vorschaubild1{
+            width: 768px;
+            height: 300px;
+            display: none;
+            border-radius: 2%;
+            flex-basis: 100%;
+            margin-top: -200px;
+            justify-content: center;
+        }
+
+        .vorschaubild2{
+            width: 768px;
+            height: 300px;
+            display: none;
+            border-radius: 2%;
+            flex-basis: 100%;
+            margin-top: -200px;
+            justify-content: center;
+
+
+        }
+
+        .vorschaubild3{
+            width: 768px;
+            height: 300px;
+            display: none;
+            border-radius: 2%;
+            flex-basis: 100%;
+            margin-top: -200px;
+            justify-content: center;
+
+
+        }
+
+        .imagebox {
+            margin-top: 20px;
+            flex-basis: 100%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .imagebox img:hover {
+            outline: 1px solid lightgray;
+
+        }
+
+        .text-hidden {
+            display: none;
+        }
+
+        @media (min-width: 1000px){
+
+
+
+            .Content-Box {
+                display: flex;
+                flex-wrap: wrap;
+                flex-grow: 20;
+                border-bottom: 1px solid lightgrey;
+                border-top: 1px solid lightgrey;
+                justify-content: space-around;
+            }
+
+            .imagebox {
+                margin-top: 50px;
+                flex-basis: 33%;
+            }
+
+            .kleinesbild{
+                height: 100px;
+                width: 100px;
+                margin-bottom: 260px;
+            }
+
+            nav{
+                flex-direction: row;
+            }
+
+            nav button {
+                flex-grow: 0.5;
+                background-image: linear-gradient(100deg, lightblue, #0088cc);
+                border: 0px;
+                border-radius: 50px;
+                height: 1.5em;
+                font-size: large;
+            }
+        }</style>
     <title>A botter place.</title>
 </head>
 <body>
