@@ -102,24 +102,31 @@ section p, section h2, section h3, section h4{
 }
 
 .vorschaubild1{
-    height: 150px;
-    width: auto;
+    display: none;
     border-radius: 2%;
-    box-shadow:2px 2px 5px #000000;
+    flex-basis: 100%;
+    margin-top: -200px;
+    justify-content: center;
 }
 
 .vorschaubild2{
-    height: 250px;
-    width: auto;
+    display: none;
     border-radius: 2%;
-    box-shadow:2px 2px 5px #000000;
+    flex-basis: 100%;
+    margin-top: -200px;
+    justify-content: center;
+
+
 }
 
 .vorschaubild3{
-    height: 220px;
-    width: auto;
+    display: none;
     border-radius: 2%;
-    box-shadow:2px 2px 5px #000000;
+    flex-basis: 100%;
+    margin-top: -200px;
+    justify-content: center;
+
+
 }
 
 .imagebox {
@@ -140,26 +147,7 @@ section p, section h2, section h3, section h4{
 
 @media (min-width: 1000px){
 
-    .imagebox1 a:hover .text-hidden {
-        display: block;
-        position: absolute;
-        bottom: 10%;
-        left: 33%;
-    }
 
-    .imagebox2 a:hover .text-hidden {
-        display: block;
-        position: absolute;
-        bottom: -3%;
-        left: 41%;
-    }
-
-    .imagebox3 a:hover .text-hidden {
-        display: block;
-        position: absolute;
-        bottom: 0%;
-        left: 29%;
-    }
 
     .Content-Box {
         display: flex;
