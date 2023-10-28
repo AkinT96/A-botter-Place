@@ -1,20 +1,27 @@
 
 header{
-    flex-grow: 1;
     display: flex;
     justify-content: left;
     align-items: center;
     padding-left: 10px;
 }
 
-section{
-    display: flex;
-    flex-wrap: wrap;
+section, .Content-Box{
     flex-grow: 20;
     border-bottom: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
+}
+
+.Content-Box{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: flex-start;
+}
+
+section {
+    font-family: "Microsoft JhengHei";
+    text-align: center;
 }
 
 footer{
@@ -25,7 +32,6 @@ footer{
 nav{
     display: flex;
     flex-direction: column;
-    flex-grow: 0.5;
     border-top: 1px solid lightgrey;
 }
 
@@ -41,7 +47,8 @@ nav button {
     background-image: linear-gradient(100deg, lightblue, #0088cc);
     border: 0px;
     outline: 1px solid lightgray;
-    height: 30px;
+    height: 2em;
+    font-size: x-large;
 }
 
 nav button:hover {
@@ -49,29 +56,47 @@ nav button:hover {
     outline: 1px solid lightgray;
 }
 
- footer p{
+footer p{
     margin-right: 10px;
+    text-align: right;
 }
 
 .flex-container {
     display:flex;
     flex-direction: column;
     background-image: linear-gradient(300deg, lightblue, #0088cc);
+    min-height: 99vh;
     }
 
 header img{
     height: 80%;
 }
 
-header h1{
+h1, h2, h3, h4, p{
     font-family: "Microsoft JhengHei";
+}
+
+h1{
     font-size: 2em;
     margin-left: 2em;
 }
 
+section p, section h2, section h3, section h4{
+    display: block;
+}
+
+.intro-text {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 20px;
+    font-family: "Microsoft JhengHei";
+}
+
 .kleinesbild{
-    height: 100px;
-    width: 100px;
+    height: 10em;
+    width: 10em;
     border-radius: 20%;
     box-shadow:2px 2px 5px #000000;
 }
@@ -109,42 +134,34 @@ header h1{
 
 }
 
-.intro-text {
-    display: flex;
-    flex-basis: 100%;
-    justify-content: center;
-    font-size: xx-large;
-
-}
-
 .text-hidden {
     display: none;
 }
 
-@media (min-width: 500px){
+@media (min-width: 1000px){
 
     .imagebox1 a:hover .text-hidden {
         display: block;
         position: absolute;
-        bottom: 15%;
+        bottom: 10%;
         left: 33%;
     }
 
     .imagebox2 a:hover .text-hidden {
         display: block;
         position: absolute;
-        bottom: 1%;
+        bottom: -3%;
         left: 41%;
     }
 
     .imagebox3 a:hover .text-hidden {
         display: block;
         position: absolute;
-        bottom: 5%;
+        bottom: 0%;
         left: 29%;
     }
 
-    section{
+    .Content-Box {
         display: flex;
         flex-wrap: wrap;
         flex-grow: 20;
@@ -159,6 +176,8 @@ header h1{
     }
 
     .kleinesbild{
+        height: 100px;
+        width: 100px;
         margin-bottom: 260px;
     }
 
@@ -167,9 +186,11 @@ header h1{
     }
 
     nav button {
-        flex-grow: 0.8;
+        flex-grow: 0.5;
         background-image: linear-gradient(100deg, lightblue, #0088cc);
         border: 0px;
         border-radius: 50px;
+        height: 1.5em;
+        font-size: large;
     }
 }
