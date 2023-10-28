@@ -24,6 +24,7 @@ footer{
 
 nav{
     display: flex;
+    flex-direction: column;
     flex-grow: 0.5;
     border-top: 1px solid lightgrey;
 }
@@ -36,17 +37,17 @@ nav a{
 }
 
 nav button {
-    flex-grow: 0.8;
+    flex-grow: 1;
     background-image: linear-gradient(100deg, lightblue, #0088cc);
     border: 0px;
-    border-radius: 50px;
-
+    outline: 1px solid lightgray;
+    height: 30px;
 }
+
 nav button:hover {
     background-image: linear-gradient(200deg, lightblue, #0088cc);
     outline: 1px solid lightgray;
 }
-
 
  footer p{
     margin-right: 10px;
@@ -97,6 +98,7 @@ header h1{
 }
 
 .imagebox {
+    margin-top: 20px;
     flex-basis: 100%;
     text-align: center;
     box-sizing: border-box;
@@ -154,15 +156,20 @@ header h1{
     .imagebox {
         margin-top: 50px;
         flex-basis: 33%;
-        text-align: center;
-        box-sizing: border-box;
     }
 
     .kleinesbild{
         margin-bottom: 260px;
-        height: 100px;
-        width: 100px;
-        border-radius: 20%;
-        box-shadow:2px 2px 5px #000000;
+    }
+
+    nav{
+        flex-direction: row;
+    }
+
+    nav button {
+        flex-grow: 0.8;
+        background-image: linear-gradient(100deg, lightblue, #0088cc);
+        border: 0px;
+        border-radius: 50px;
     }
 }
