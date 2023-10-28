@@ -73,11 +73,18 @@ header h1{
     margin-left: 2em;
 }
 
-.imagebox img{
+.kleinesbild{
+    margin-bottom: 300px;
     height: 100px;
     width: 100px;
     border-radius: 20%;
     box-shadow:2px 2px 5px #000000;
+}
+
+.vorschaubild {
+    height: 299px;
+    width: 768px;
+
 }
 
 .imagebox {
@@ -93,29 +100,30 @@ header h1{
 .imagebox1:hover .text-hidden {
      display: block;
      position: absolute;
-     bottom: 20%;
-     right: 50%;
-     background-color: red;
+     bottom: 15%;
+     right: 30%;
  }
 
 .imagebox2:hover .text-hidden {
     display: block;
     position: absolute;
-    bottom: 20%;
-    right: 50%;
-    background-color: red;
+    bottom: 15%;
+    right: 30%;
 }
 
 .imagebox3:hover .text-hidden {
     display: block;
     position: absolute;
-    bottom: 20%;
-    right: 50%;
-    background-color: red;
+    bottom: 15%;
+    right: 30%;
 }
 
 .intro-text {
+    display: flex;
     flex-basis: 100%;
+    justify-content: center;
+    font-size: xx-large;
+
 }
 
 .text-hidden {
