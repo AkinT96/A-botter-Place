@@ -151,6 +151,25 @@ section p, section h2, section h3, section h4{
     display: none;
 }
 
+.vorschaubild{
+    display: none;
+    border-radius: 2%;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+a.bild1:hover ~ div:nth-of-type(2){
+    display: block;
+}
+
+a.bild2:hover ~ div:nth-of-type(3){
+    display: block;
+}
+
+a.bild3:hover ~ div:nth-of-type(4){
+    display: block;
+}
+
 @media (min-width: 1000px){
 
 
