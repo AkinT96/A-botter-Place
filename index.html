@@ -9,29 +9,97 @@
 </head>
 <body>
 <div class="flex-container">
-    <header> 
-        <img src="images/telegram_logo.svg" alt="Telegramm Logo">
+    <header>
+        <img src="data:image/svg+xml;utf8,<svg width='48' height='48' xmlns='http://www.w3.org/2000/svg'><path d='M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z' fill='url(%23paint0_linear)'/><path d='M8.93822 25.174C11.7438 23.6286 14.8756 22.3388 17.8018 21.0424C22.836 18.919 27.8902 16.8324 32.9954 14.8898C33.9887 14.5588 35.7734 14.2351 35.9484 15.7071C35.8526 17.7907 35.4584 19.8621 35.188 21.9335C34.5017 26.4887 33.7085 31.0283 32.935 35.5685C32.6685 37.0808 30.774 37.8637 29.5618 36.8959C26.6486 34.9281 23.713 32.9795 20.837 30.9661C19.8949 30.0088 20.7685 28.6341 21.6099 27.9505C24.0093 25.5859 26.5539 23.5769 28.8279 21.0901C29.4413 19.6088 27.6289 20.8572 27.0311 21.2397C23.7463 23.5033 20.5419 25.9051 17.0787 27.8945C15.3097 28.8683 13.2479 28.0361 11.4797 27.4927C9.89428 26.8363 7.57106 26.175 8.93806 25.1741L8.93822 25.174Z' fill='white'/></svg>" alt="Telegramm Logo">
         <h1> A Botter place</h1>
     </header>
-    <section>
-        <div class="intro-text">Dies ist ein Introtext</div>
-        <div class="imagebox imagebox1">
-            <img src="/images/map.png" alt="Akins Bild">
-            <span class="text-hidden"><img src="/images/shippreview.png"> </span>
+    <section class="Content-Box">
+        <div class="intro-text">Willkommen im Botter Place. Suche dir eine passende Welt aus!</div>
+
+        <div class=" imagebox imagebox1">
+            <a href="/A-botter-Place/bot-sites/battleship.html">
+                <img class="kleinesbild" src="images/schiffe.jpg" alt="Vorschaubild für das Spiel Schiffe versenken. Erkennbar sind einige Schlachtschiffe auf dem Meer">
+            </a>
         </div>
+
+
+
         <div class="imagebox imagebox2">
-            <img src="/images/theForest.png" alt="Krishans Bild">
-            <span class="text-hidden"><img src="/images/shippreview.png"></span>
+            <a href="/A-botter-Place/bot-sites/theForst.html">
+                <img class="kleinesbild" src="images/theForest.png" alt="Vorschaubild für das Spiel The Forest. Erkennbar ist ein düster wirkender Wald">
+            </a>
         </div>
+
+
+
         <div class="imagebox imagebox3">
-            <img src="/images/schiffe.jpg" alt="Sebastians Bild">
-            <span class="text-hidden">TEXT NR.3</span>
+            <a href="/A-botter-Place/bot-sites/landOfTheFairy.html">
+                <img class="kleinesbild" src="images/map.png" alt="Vorschaubild für das Spiel Land of the Fairy. Erkennbar ist ein Teil der Spielkarte, auf dem sich eine Wiese und ein Haus im Cartoon-Format befindet.">
+            </a>
         </div>
-        <div class="preview1">Hier steht der preview text.</div>
-        <div class="preview2"></div>
-        <div class="preview3"></div>
+
+
+
+
+
+        <div class="vorschaubild1">
+            <img src="images/shippreview.png" alt="Ansicht von Schiffe versenken innerhalb der Telegram App">
+        </div>
+
+
+        <div class="vorschaubild2">
+            <img  src="images/forestpreview.png">
+
+        </div>
+
+
+        <div class="vorschaubild3">
+            <img src="images/fairypreview.png" alt="Ansicht von Land of the Fairy innerhalb der Telegram App">
+
+        </div>
     </section>
-    <footer> <p>created by Krishan, Akin, Sebastian</p> </footer>
+    <footer> <p>created by Krischan, Akin, Sebastian</p> </footer>
 </div>
+
+<script>
+
+    if (window.innerWidth >= 1000) {
+
+    const elementZumHovern1 = document.querySelector(".imagebox1 img");
+    const auszublendendesElement1 = document.querySelector(".vorschaubild1");
+
+    elementZumHovern1.addEventListener("mouseover", () => {
+        auszublendendesElement1.style.display = "flex";
+    });
+
+    elementZumHovern1.addEventListener("mouseout", () => {
+        auszublendendesElement1.style.display = "none";
+    });
+
+    // JavaScript-Code für das zweite Element
+    const elementZumHovern2 = document.querySelector(".imagebox2 img");
+    const auszublendendesElement2 = document.querySelector(".vorschaubild2");
+
+    elementZumHovern2.addEventListener("mouseover", () => {
+        auszublendendesElement2.style.display = "flex";
+    });
+
+    elementZumHovern2.addEventListener("mouseout", () => {
+        auszublendendesElement2.style.display = "none";
+    });
+
+    // JavaScript-Code für das dritte Element
+    const elementZumHovern3 = document.querySelector(".imagebox3 img");
+    const auszublendendesElement3 = document.querySelector(".vorschaubild3");
+
+    elementZumHovern3.addEventListener("mouseover", () => {
+        auszublendendesElement3.style.display = "flex";
+    });
+
+    elementZumHovern3.addEventListener("mouseout", () => {
+        auszublendendesElement3.style.display = "none";
+    });}
+</script>
+
 </body>
 </html>
