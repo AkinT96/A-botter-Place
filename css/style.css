@@ -101,38 +101,52 @@ section p, section h2, section h3, section h4{
     box-shadow:2px 2px 5px #000000;
 }
 
-.vorschaubild1{
+.vorschaubild1 {
     width: 768px;
     height: 300px;
     display: none;
-    border-radius: 2%;
     flex-basis: 100%;
     margin-top: -200px;
     justify-content: center;
+}
+
+.vorschaubild1 img{
+    width: 30em;
+    height: auto;
+    border-radius: 1%;
+    box-shadow:2px 2px 5px #000000;
 }
 
 .vorschaubild2{
     width: 768px;
     height: 300px;
     display: none;
-    border-radius: 2%;
     flex-basis: 100%;
     margin-top: -200px;
     justify-content: center;
+}
 
-
+.vorschaubild2 img{
+    width: 30em;
+    height: auto;
+    border-radius: 1%;
+    box-shadow:2px 2px 5px #000000;
 }
 
 .vorschaubild3{
     width: 768px;
     height: 300px;
     display: none;
-    border-radius: 2%;
     flex-basis: 100%;
     margin-top: -200px;
     justify-content: center;
+}
 
-
+.vorschaubild3 img{
+    width: 30em;
+    height: auto;
+    border-radius: 1%;
+    box-shadow:2px 2px 5px #000000;
 }
 
 .imagebox {
