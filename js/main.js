@@ -1,3 +1,5 @@
+
+
 function showPrewview() {
     if (window.innerWidth >= 1000) {
 
@@ -36,3 +38,5 @@ function showPrewview() {
             auszublendendesElement3.style.display = "none";
         });}
 }
+
+showPrewview();
