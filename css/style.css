@@ -1,7 +1,4 @@
-title {
-    color: #222222;
-;
-}
+
 header{
     display: flex;
     justify-content: left;
@@ -27,9 +24,11 @@ section {
     text-align: center;
 }
 
+
 footer{
     flex-grow: .2;
     text-align: right;
+    color: #222222;
 }
 
 nav{
@@ -79,6 +78,7 @@ header img{
 
 h1, h2, h3, h4, p{
     font-family: "Microsoft JhengHei";
+    color: #222222;
 }
 
 h1{
@@ -164,6 +164,8 @@ section p, section h2, section h3, section h4{
 
  .imagebox img:hover {
     outline: 1px solid lightgray;
+     height: 10.1em;
+     width: 10.1em;
 }
 
 .text-hidden {
@@ -188,49 +190,6 @@ a.bild2:hover ~ div:nth-of-type(3){
 a.bild3:hover ~ div:nth-of-type(4){
     display: block;
 }
-
-.leftSideFairy {
-    display: flex;
-    flex-basis: 100%;
-    align-content: center;
-    justify-content: center;
-    color: #222222;
-
-}
-.rightSideFairy0 {
-    display: none;
-    color: #222222;
-    font-weight: bold;
-}
-
-.rightSideFairy {
-    font-weight: bold;
-    display: flex;
-    flex-basis: 50%;
-    align-content: center;
-    justify-content: center;
-    color: #222222;
-
-}
-.keinePunkte {
-    font-weight: bold;
-    list-style: none;
-    color: #222222;
-}
-.akinkleinebilder {
-    height: 5em;
-    width: 5em;
-    border-radius: 20%;
-    box-shadow:2px 2px 5px #000000;
-
-}
-.animated-image {
-    display: none;
-}
-.imageSizeAnimation {
-    display: none;
-}
-
 
 
 @media (min-width: 1000px){

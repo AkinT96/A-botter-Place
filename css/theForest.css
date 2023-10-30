@@ -13,37 +13,62 @@ ul {
     color: #222222;
 }
 
+section p {
+    max-width: 400px;
+    align-self: center;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 .Rotertext{
     color: red;
 }
+
+.textImgBundle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.textImgBundle p{
+    margin-right: 10px;
+}
+
+.abtrennung{
+    border-bottom: 1px solid lightgray;
+}
+
 
 @media (min-width: 1000px){
 
     .InlineButtons, .status, .WilderHund, .Teich{
         display: inline;
+        align-self: center;
+        height:auto;
     }
 
     .InlineButtons{
-        height:10em;
-        width: auto;
+        width: 20em;
         border-radius: 7%;
     }
 
     .status{
-        height:10em;
-        width: auto;
+        width: 35em;
         border-radius: 7%;
     }
 
     .WilderHund{
-        height:30em;
-        width: auto;
+        width: 20em;
         border-radius: 7%;
     }
 
     .Teich{
-        height:20em;
-        width: auto;
+        width: 20em;
         border-radius: 7%;
     }
 }
