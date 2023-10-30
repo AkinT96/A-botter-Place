@@ -22,21 +22,25 @@
     color: #222222;
 
 }
+
 .keinePunkte {
     font-weight: bold;
     list-style: none;
     color: #222222;
 }
+
 .akinkleinebilder {
     height: 5em;
     width: 5em;
     border-radius: 20%;
-    box-shadow:2px 2px 5px #000000;
+    box-shadow: 2px 2px 5px #000000;
 
 }
+
 .animated-image {
     display: none;
 }
+
 .imageSizeAnimation {
     display: none;
 }
