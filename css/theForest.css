@@ -4,7 +4,7 @@
 .InlineButtons, .status, .WilderHund, .Teich{
 
     display: none;
-    box-shadow:2px 2px 5px #000000;
+    box-shadow:2px 2px 5px black;
 }
 
 ul {
@@ -56,7 +56,6 @@ section p {
 }
 
 nav button, .LinkButton{
-    /*color: #F2F2F2;*/
     background-image: linear-gradient(200deg,grey,lightgray,grey, #3c501f);
 }
 
