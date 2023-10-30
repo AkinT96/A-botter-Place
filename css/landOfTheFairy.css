@@ -23,6 +23,14 @@
 
 }
 
+.flex-container{
+    /*parallax background*/
+    background-image: url("../images/map.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .keinePunkte {
     font-weight: bold;
     list-style: none;
