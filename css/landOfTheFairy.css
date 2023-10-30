@@ -4,12 +4,16 @@
     flex-basis: 100%;
     align-content: center;
     justify-content: center;
-    color: #222222;
+    color: #F2F2F2;
+}
+
+b {
+    color: #F2F2F2;
 }
 
 .rightSideFairy0 {
     display: none;
-    color: #222222;
+    color: #F2F2F2;
     font-weight: bold;
 }
 
@@ -19,7 +23,7 @@
     flex-basis: 50%;
     align-content: center;
     justify-content: center;
-    color: #222222;
+    color: #F2F2F2;
 
 }
 nav button {
@@ -42,14 +46,14 @@ nav button:hover {
 .keinePunkte {
     font-weight: bold;
     list-style: none;
-    color: #222222;
+    color: #F2F2F2;
 }
 
 .akinkleinebilder {
     height: 5em;
     width: 5em;
     border-radius: 20%;
-    box-shadow: 2px 2px 5px #000000;
+    box-shadow: 2px 2px 5px #F2F2F2;
 
 }
 
