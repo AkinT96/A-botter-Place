@@ -1,18 +1,50 @@
 
 
-ul{
-    text-align: center;
-}
 
 .InlineButtons, .status, .WilderHund, .Teich{
 
-
+    display: none;
     box-shadow:2px 2px 5px #000000;
 
 }
 
-.InlineButtons{
-    height:10em;
-    width: auto;
-    border-radius: 7%;
+ul {
+    list-style: none;
+    color: #222222;
 }
+
+.Rotertext{
+    color: red;
+}
+
+@media (min-width: 1000px){
+
+    .InlineButtons, .status, .WilderHund, .Teich{
+        display: inline;
+    }
+
+    .InlineButtons{
+        height:10em;
+        width: auto;
+        border-radius: 7%;
+    }
+
+    .status{
+        height:10em;
+        width: auto;
+        border-radius: 7%;
+    }
+
+    .WilderHund{
+        height:30em;
+        width: auto;
+        border-radius: 7%;
+    }
+
+    .Teich{
+        height:20em;
+        width: auto;
+        border-radius: 7%;
+    }
+}
+
