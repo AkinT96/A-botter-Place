@@ -57,11 +57,11 @@ section p {
 }
 
 nav button {
-    background-image: linear-gradient(100deg, lightblue, green);
+    background-image: linear-gradient(100deg, lightgreen, green);
 }
 
 nav button:hover {
-    background-image: linear-gradient(200deg, lightblue, green);
+    background-image: linear-gradient(200deg, lightgreen, green);
 }
 
 
