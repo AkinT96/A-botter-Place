@@ -64,7 +64,6 @@ testem.log
 *.jar
 *.rar
 *.tar
-*.zip
 
 # Logs and databases #
 ######################
