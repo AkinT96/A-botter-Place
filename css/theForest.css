@@ -49,7 +49,7 @@ section p {
 }
 
 .flex-container p, .flex-container h1, .flex-container h2, .flex-container h3, .flex-container h4, .flex-container ul{
-    color: white;
+    color: #F2F2F2;
 }
 
 .Rotertext{
@@ -57,15 +57,11 @@ section p {
 }
 
 nav button, .LinkButton{
-    background-image: linear-gradient(100deg, lightgreen, green);
+    background-image: linear-gradient(100deg, darkgreen, lightgray,grey);
 }
 
 nav button:hover, .LinkButton:hover{
-    background-image: linear-gradient(200deg, lightgreen, green);
-}
-
-.Content-Box a{
-
+    background-image: linear-gradient(200deg, darkgreen, lightgray,grey);
 }
 
 .LinkButton{
