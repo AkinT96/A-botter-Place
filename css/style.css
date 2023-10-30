@@ -1,4 +1,7 @@
-
+title {
+    color: #222222;
+;
+}
 header{
     display: flex;
     justify-content: left;
@@ -33,6 +36,8 @@ nav{
     display: flex;
     flex-direction: column;
     border-top: 1px solid lightgrey;
+    color: #222222;
+
 }
 
 nav a{
@@ -92,6 +97,7 @@ section p, section h2, section h3, section h4{
     font-size: xx-large;
     margin-top: 20px;
     font-family: "Microsoft JhengHei";
+    color: #222222;
 }
 
 .kleinesbild{
@@ -188,24 +194,35 @@ a.bild3:hover ~ div:nth-of-type(4){
     flex-basis: 100%;
     align-content: center;
     justify-content: center;
+    color: #222222;
+
 }
 .rightSideFairy0 {
     display: none;
+    color: #222222;
+    color: #222222;
+
+
 }
 .rightSideFairy {
     display: flex;
     flex-basis: 50%;
     align-content: center;
     justify-content: center;
+    color: #222222;
+
 }
 .keinePunkte {
     list-style: none;
+    color: #222222;
+
 }
 .akinkleinebilder {
     height: 5em;
     width: 5em;
     border-radius: 20%;
     box-shadow:2px 2px 5px #000000;
+
 }
 .animated-image {
     display: none;
@@ -238,6 +255,19 @@ a.bild3:hover ~ div:nth-of-type(4){
         }
     }
 
+    .leftSideFairy {
+        flex-basis: 50%;
+    }
+    .rightSideFairy0 {
+        flex-basis: 25%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .rightSideFairy {
+        flex-basis: 25%;
+        margin-top: -60px;
+    }
 
 
     .Content-Box {
