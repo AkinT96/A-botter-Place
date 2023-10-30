@@ -63,6 +63,14 @@ nav button:hover {
 
 @media (min-width: 1000px) {
 
+    .akinkleinebilder {
+        transition: transform 0.3s;
+    }
+
+    .akinkleinebilder:hover {
+        transform: scale(1.2);
+    }
+
     .imageSizeAnimation {
         height: 100px;
         width: auto;
