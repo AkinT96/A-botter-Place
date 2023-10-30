@@ -27,11 +27,11 @@ b {
 
 }
 nav button {
-    background-image: linear-gradient(100deg, lightblue, #222222);
+    background-image: linear-gradient(100deg, lavender, #211422 );
 }
 
 nav button:hover {
-    background-image: linear-gradient(200deg, lightblue, #222222);
+    background-image: linear-gradient(200deg, lavender, #211422);
 }
 
 
