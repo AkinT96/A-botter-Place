@@ -120,7 +120,7 @@ section p, section h2, section h3, section h4 {
 .vorschaubild1 img {
     width: 30em;
     height: auto;
-    border-radius: 1%;
+    border-radius: 5px;
     box-shadow: 2px 2px 5px #000000;
 }
 
@@ -136,7 +136,7 @@ section p, section h2, section h3, section h4 {
 .vorschaubild2 img {
     width: 30em;
     height: auto;
-    border-radius: 1%;
+    border-radius: 5px;
     box-shadow: 2px 2px 5px #000000;
 }
 
@@ -152,7 +152,7 @@ section p, section h2, section h3, section h4 {
 .vorschaubild3 img {
     width: 30em;
     height: auto;
-    border-radius: 1%;
+    border-radius: 5px;
     box-shadow: 2px 2px 5px #000000;
 }
 
