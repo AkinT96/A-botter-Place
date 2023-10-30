@@ -28,6 +28,7 @@ section {
 footer{
     flex-grow: .2;
     text-align: right;
+    color: #222222;
 }
 
 nav{
