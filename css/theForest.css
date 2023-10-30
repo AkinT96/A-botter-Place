@@ -1,9 +1,10 @@
 
-.InlineButtons, .status, .WilderHund, .Teich {
+
+
+.InlineButtons, .status, .WilderHund, .Teich{
 
     display: none;
-    box-shadow: 2px 2px 5px #000000;
-
+    box-shadow:2px 2px 5px #000000;
 }
 
 ul {
@@ -14,60 +15,84 @@ ul {
 section p {
     max-width: 400px;
     align-self: center;
+    color: #222222;
 }
 
-.contentContainer {
+.contentContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 }
 
-.Rotertext {
+.Rotertext{
     color: red;
 }
 
-.textImgBundle {
+.textImgBundle{
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
 }
 
-.textImgBundle p {
+.textImgBundle p{
     margin-right: 10px;
 }
 
-.abtrennung {
+.abtrennung{
     border-bottom: 1px solid lightgray;
 }
 
+.flex-container{
+    /*parallax background*/
+    background-image: url("../images/theForest.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-@media (min-width: 1000px) {
+.flex-container p, .flex-container h1, .flex-container h2, .flex-container h3, .flex-container h4, .flex-container ul{
+    color: white;
+}
 
-    .InlineButtons, .status, .WilderHund, .Teich {
+
+
+
+@media (min-width: 1000px){
+
+    .InlineButtons, .status, .WilderHund, .Teich{
         display: inline;
         align-self: center;
-        height: auto;
+        height:auto;
     }
 
-    .InlineButtons {
+    .InlineButtons{
         width: 20em;
         border-radius: 7%;
     }
 
-    .status {
+    .status{
         width: 35em;
         border-radius: 7%;
     }
 
-    .WilderHund {
+    .WilderHund{
         width: 20em;
         border-radius: 7%;
     }
 
-    .Teich {
+    .Teich{
         width: 20em;
         border-radius: 7%;
+    }
+
+    .SogehtsBox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .SogehtsBox div{
+        flex-basis: 50%;
     }
 }
 
