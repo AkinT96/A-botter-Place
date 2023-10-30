@@ -164,6 +164,8 @@ section p, section h2, section h3, section h4{
 
  .imagebox img:hover {
     outline: 1px solid lightgray;
+     height: 10.1em;
+     width: 10.1em;
 }
 
 .text-hidden {
