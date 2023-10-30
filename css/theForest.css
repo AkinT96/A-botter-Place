@@ -25,10 +25,6 @@ section p {
     align-content: center;
 }
 
-.Rotertext{
-    color: red;
-}
-
 .textImgBundle{
     display: flex;
     justify-content: center;
@@ -56,15 +52,29 @@ section p {
     color: white;
 }
 
-nav button {
+.Rotertext{
+    color: red;
+}
+
+nav button, .LinkButton{
     background-image: linear-gradient(100deg, lightgreen, green);
 }
 
-nav button:hover {
+nav button:hover, .LinkButton:hover{
     background-image: linear-gradient(200deg, lightgreen, green);
 }
 
+.Content-Box a{
 
+}
+
+.LinkButton{
+    border: 0px;
+    outline: 1px solid lightgray;
+    height: 2.5em;
+    font-size: large;;
+    border-radius: 50px;
+}
 
 
 @media (min-width: 1000px){
@@ -77,22 +87,22 @@ nav button:hover {
 
     .InlineButtons{
         width: 20em;
-        border-radius: 7%;
+        border-radius: 10px;
     }
 
     .status{
         width: 35em;
-        border-radius: 7%;
+        border-radius: 10px;
     }
 
     .WilderHund{
         width: 20em;
-        border-radius: 7%;
+        border-radius: 10px;
     }
 
     .Teich{
         width: 20em;
-        border-radius: 7%;
+        border-radius: 10px;
     }
 
     .SogehtsBox {
