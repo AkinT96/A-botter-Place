@@ -15,15 +15,14 @@ ul {
 
 section p {
     max-width: 300px;
-    text-align: center;
-    align-content: center;
-    align-items: center;
     align-self: center;
-    outline: 1px solid red;
 }
 
-section{
-    text-align: center;
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .Rotertext{
@@ -34,29 +33,27 @@ section{
 
     .InlineButtons, .status, .WilderHund, .Teich{
         display: inline;
+        align-self: center;
+        height:auto;
     }
 
     .InlineButtons{
-        height:10em;
-        width: auto;
+        width: 20em;
         border-radius: 7%;
     }
 
     .status{
-        height:10em;
-        width: auto;
+        width: 35em;
         border-radius: 7%;
     }
 
     .WilderHund{
-        height:30em;
-        width: auto;
+        width: 20em;
         border-radius: 7%;
     }
 
     .Teich{
-        height:20em;
-        width: auto;
+        width: 20em;
         border-radius: 7%;
     }
 }
