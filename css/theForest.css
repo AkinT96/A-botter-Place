@@ -40,7 +40,6 @@ section p {
 }
 
 .flex-container{
-    /*parallax background*/
     background-image: url("../images/theForest.png");
     background-attachment: fixed;
     background-position: center;
