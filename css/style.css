@@ -158,7 +158,6 @@ section p, section h2, section h3, section h4{
 
  .imagebox img:hover {
     outline: 1px solid lightgray;
-
 }
 
 .text-hidden {
@@ -184,7 +183,60 @@ a.bild3:hover ~ div:nth-of-type(4){
     display: block;
 }
 
+.leftSideFairy {
+    display: flex;
+    flex-basis: 100%;
+    align-content: center;
+    justify-content: center;
+}
+.rightSideFairy0 {
+    display: none;
+}
+.rightSideFairy {
+    display: flex;
+    flex-basis: 50%;
+    align-content: center;
+    justify-content: center;
+}
+.keinePunkte {
+    list-style: none;
+}
+.akinkleinebilder {
+    height: 5em;
+    width: 5em;
+    border-radius: 20%;
+    box-shadow:2px 2px 5px #000000;
+}
+.animated-image {
+    display: none;
+}
+.imageSizeAnimation {
+    display: none;
+}
+
+
 @media (min-width: 1000px){
+
+    .imageSizeAnimation {
+        height: 100px;
+        width: auto;
+        display: block;
+    }
+    .animated-image {
+        display: flex;
+        position: relative;
+        animation: slideLeft 10s linear infinite;
+        flex-basis: 100%;
+
+    }
+    @keyframes slideLeft {
+        0% {
+            left: 100%;
+        }
+        100% {
+            left: -100%;
+        }
+    }
 
 
 
