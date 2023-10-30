@@ -9,7 +9,7 @@ nav button:hover {
 
 .flex-container{
     /*parallax background*/
-    background-image: url("../images/schiffe.jpg");
+    background-image: url("../images/carrier2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
