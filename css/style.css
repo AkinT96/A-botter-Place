@@ -183,45 +183,6 @@ section p, section h2, section h3, section h4 {
 
 @media (min-width: 1000px) {
 
-    .imageSizeAnimation {
-        height: 100px;
-        width: auto;
-        display: block;
-    }
-
-    .animated-image {
-        display: flex;
-        position: relative;
-        animation: slideLeft 10s linear infinite;
-        flex-basis: 100%;
-
-    }
-
-    @keyframes slideLeft {
-        0% {
-            left: 100%;
-        }
-        100% {
-            left: -100%;
-        }
-    }
-
-    .leftSideFairy {
-        flex-basis: 50%;
-    }
-
-    .rightSideFairy0 {
-        flex-basis: 25%;
-        display: flex;
-        align-content: center;
-        justify-content: center;
-    }
-
-    .rightSideFairy {
-        flex-basis: 25%;
-        margin-top: -60px;
-    }
-
 
     .Content-Box {
         display: flex;
