@@ -1,0 +1,18 @@
+
+
+ul{
+    text-align: center;
+}
+
+.InlineButtons, .status, .WilderHund, .Teich{
+
+
+    box-shadow:2px 2px 5px #000000;
+
+}
+
+.InlineButtons{
+    height:10em;
+    width: auto;
+    border-radius: 7%;
+}
