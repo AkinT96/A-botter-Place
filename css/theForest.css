@@ -14,11 +14,11 @@ ul {
 }
 
 section p {
-    max-width: 300px;
+    max-width: 400px;
     align-self: center;
 }
 
-section div{
+.contentContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,6 +28,21 @@ section div{
 .Rotertext{
     color: red;
 }
+
+.textImgBundle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.textImgBundle p{
+    margin-right: 10px;
+}
+
+.abtrennung{
+    border-bottom: 1px solid lightgray;
+}
+
 
 @media (min-width: 1000px){
 
