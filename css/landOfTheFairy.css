@@ -42,6 +42,7 @@ nav button:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: contrast(130%);
 }
 .keinePunkte {
     font-weight: bold;
